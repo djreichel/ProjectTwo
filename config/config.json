@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "Finalfantasygirl420",
-    "database": "exampledb",
+    "database": "beerReviewsdb",
     "host": "localhost",
     "dialect": "mysql"
   },
