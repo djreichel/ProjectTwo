@@ -1,3 +1,31 @@
 .list-group-item {
   line-height: 2.5;
 }
+ body {
+   background: url('../assets/images/beer-background.jpg');
+ }
+
+#logo {
+  margin-top: -15%;
+  margin-bottom: -15%;
+}
+
+#readR {
+    margin-bottom: 2%;
+    background: whitesmoke;
+    color: red;
+    font-family: inherit;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#writeR {
+  margin-bottom: 2%;
+  background: whitesmoke;
+  color: red;
+  font-family: inherit;
+}
+
+#readR:hover {
+background: black;
+}
