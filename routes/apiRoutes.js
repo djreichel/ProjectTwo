@@ -64,7 +64,6 @@ module.exports = function(app) {
           res.json(beerReviewsdb);
         });
     });
-  };
 
   // Delete a post by id
   app.delete("/api/beers/:id", function(req, res) {
@@ -78,3 +77,4 @@ module.exports = function(app) {
       res.json(beerReviewsdb);
     });
   });
+};
