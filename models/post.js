@@ -22,7 +22,7 @@ module.exports = function(sequelize, DataTypes) {
         },
         // rating (same as type of beer- comes from drop down or input/select value
         rating: {
-            type: DataTypes.INT,
+            type: DataTypes.INTEGER,
             allowNull: false, 
             validate: {
                 isNumeric: true,
