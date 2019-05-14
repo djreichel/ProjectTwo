@@ -1,8 +1,10 @@
 // Get references to page elements
 var $exampleText = $("#example-text");
 var $exampleDescription = $("#example-description");
-var $submitBtn = $("#submit");
+var $readReview = $("#readR");
 var $exampleList = $("#example-list");
+var $submitBtn = $("#submit");
+
 
 // The API object contains methods for each kind of request we'll make
 var API = {
@@ -97,3 +99,20 @@ var handleDeleteBtnClick = function() {
 // Add event listeners to the submit and delete buttons
 $submitBtn.on("click", handleFormSubmit);
 $exampleList.on("click", ".delete", handleDeleteBtnClick);
+
+// Read a Review
+$( document ).ready(function() {
+  $readReview.on("click", function() {
+
+    console.log("this button was clicked");
+  
+  });
+
+
+  $("#readR").on("click",()=>{
+    console.log("clicl");
+  })
+  console.log( "ready!" );
+});
+
+
