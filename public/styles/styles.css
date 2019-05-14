@@ -29,3 +29,25 @@ background: #7e4115;
 color: antiquewhite;
 }
 
+#userReview {
+  width: 50%;
+  margin: auto;
+}
+
+#readReview {
+  width: 50%;
+  margin: auto;
+}
+
+#submitBtn {
+  position: relative;
+  background: rgba(0, 0, 0, 0.432);
+  width: 15%;
+  padding: 10px;
+}
+
+#next {
+  background: rgba(0, 0, 0, 0.432);
+  color: white;
+  border-radius: 20px;
+}

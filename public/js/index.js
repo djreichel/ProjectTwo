@@ -1,9 +1,9 @@
-// Get references to page elements
-var $exampleText = $("#example-text");
-var $exampleDescription = $("#example-description");
-var $readReview = $("#readR");
-var $exampleList = $("#example-list");
+// var $exampleText = $("#example-text");
+// var $exampleDescription = $("#example-description");
 var $submitBtn = $("#submit");
+// var $exampleList = $("#example-list");
+var $readReview = $("#readR");
+var $writeReview = $("#writeR");
 
 
 // The API object contains methods for each kind of request we'll make
@@ -97,22 +97,38 @@ var handleDeleteBtnClick = function() {
 };
 
 // Add event listeners to the submit and delete buttons
-$submitBtn.on("click", handleFormSubmit);
-$exampleList.on("click", ".delete", handleDeleteBtnClick);
+// $submitBtn.on("click", handleFormSubmit);
+// $exampleList.on("click", ".delete", handleDeleteBtnClick);
 
-// Read a Review
-$( document ).ready(function() {
-  $readReview.on("click", function() {
+// read review
+$(document).ready(function () {
+  $("#userReview").hide();
+  $("#readReview").hide();
 
-    console.log("this button was clicked");
-  
+  $("#writeR").on("click", () => {
+    console.log("clicked");
+    $("#userReview").show();
+    //$("#readReview").hide();
+
+
+  })
+  console.log("ready set go!");
+
+  $("#readR").on("click", () => {
+    console.log("click");
+    $("#readReview").show();
+    //$("#userReview").show();
+
+
+  })
+  console.log("ready!");
+
+  // write review
+  $writeReview.on("click", function () {
+    console.log("this button was clicked too");
   });
 
-
-  $("#readR").on("click",()=>{
-    console.log("clicl");
-  })
-  console.log( "ready!" );
-});
-
-
+  var userReview = uReview;
+  var uReview = $("<div>").addClass("group");
+  console.log(uReview);
+})
