@@ -4,28 +4,35 @@
  body {
    background: url('../assets/images/beer-background.jpg');
  }
-
 #logo {
   margin-top: -15%;
-  margin-bottom: -15%;
+  margin-bottom: auto;
 }
-
-#readR {
+.ui.button {
     margin-bottom: 2%;
     background: whitesmoke;
-    color: red;
+    color: #d2232a;
     font-family: inherit;
-    margin-left: 40%;
+    margin-left: 37%;
     margin-top: 5%;
 }
-
 #writeR {
-  margin-bottom: 2%;
-  background: whitesmoke;
-  color: red;
-  font-family: inherit;
+ margin-left: 2%;
+}
+.ui.button:hover {
+background: #7e4115;
 }
 
-#readR:hover {
-background: black;
+#userReview {
+  width: 50%;
+  margin: auto;
+}
+
+#readReview {
+  width: 50%;
+  margin: auto;
+}
+
+#submitBtn {
+  position: relative;
 }

@@ -3,6 +3,9 @@ var $exampleText = $("#example-text");
 var $exampleDescription = $("#example-description");
 var $submitBtn = $("#submit");
 var $exampleList = $("#example-list");
+var $readReview = $("#readR");
+var $writeReview = $("#writeR");
+
 
 // The API object contains methods for each kind of request we'll make
 var API = {
@@ -97,3 +100,36 @@ var handleDeleteBtnClick = function() {
 // Add event listeners to the submit and delete buttons
 $submitBtn.on("click", handleFormSubmit);
 $exampleList.on("click", ".delete", handleDeleteBtnClick);
+
+// read review
+$(document).ready(function () {
+  $("#userReview").hide();
+  $("#readReview").hide();
+
+  $("#writeR").on("click", () => {
+    console.log("clicked");
+    $("#userReview").show();
+    //$("#readReview").hide();
+
+
+  })
+  console.log("ready set go!");
+
+  $("#readR").on("click", () => {
+    console.log("click");
+    $("#readReview").show();
+    //$("#userReview").show();
+
+
+  })
+  console.log("ready!");
+
+  // write review
+  $writeReview.on("click", function () {
+    console.log("this button was clicked too");
+  });
+
+  var userReview = uReview;
+  var uReview = $("<div>").addClass("group");
+  console.log(uReview);
+})
