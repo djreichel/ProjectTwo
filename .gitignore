@@ -1,4 +1,10 @@
 node_modules
+<<<<<<< HEAD
+.DS_Store
+.env
+.config
+=======
 package-lock.json
 .DS_Store
 .env
+>>>>>>> master

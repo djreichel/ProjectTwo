@@ -1,3 +1,61 @@
 .list-group-item {
   line-height: 2.5;
 }
+ body {
+   background: url('../assets/images/beer-background.jpg');
+ }
+
+#logo {
+  width: 565px;
+  margin: auto;
+
+}
+
+
+.ui.button {
+    background: antiquewhite;
+    color: #d2232a;
+    font-size: large;
+    font-family: inherit;
+    padding: 20px;
+    border-radius: 20px;
+    width: 18%;
+    margin: 15px -405px 0px 445px; 
+    /* margin needs media queries adjusted act funky */
+}
+
+.ui.button:hover {
+background: #7e4115;
+color: antiquewhite;
+}
+
+#userReview {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#readReview {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#submitBtn {
+  position: relative;
+  background: rgba(0, 0, 0, 0.432);
+  width: 15%;
+  padding: 10px;
+}
+
+#next {
+  background: rgba(0, 0, 0, 0.432);
+  color: white;
+  border-radius: 20px;
+}
+
+/* #userLogin {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+} */

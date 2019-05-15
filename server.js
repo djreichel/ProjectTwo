@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 require("dotenv").config();
 var express = require("express");
 var exphbs = require("express-handlebars");
