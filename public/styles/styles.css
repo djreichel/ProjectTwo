@@ -32,11 +32,13 @@ color: antiquewhite;
 #userReview {
   width: 50%;
   margin: auto;
+  margin-top: 30px;
 }
 
 #readReview {
   width: 50%;
   margin: auto;
+  margin-top: 30px;
 }
 
 #submitBtn {
@@ -51,3 +53,9 @@ color: antiquewhite;
   color: white;
   border-radius: 20px;
 }
+
+/* #userLogin {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+} */
