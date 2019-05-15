@@ -109,7 +109,7 @@ $(document).ready(function () {
     console.log("clicked");
     $("#userReview").show();
     //$("#readReview").hide();
-
+//maybe use a if else statement to have this work how we need it to ?
 
   })
   console.log("ready set go!");
